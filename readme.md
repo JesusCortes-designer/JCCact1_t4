@@ -78,11 +78,11 @@ Endpoint /api/nombre
 
 Endpoint /api/detalles_info
 
-![Prueba en localhost de /api/detalles_info](imagenes/imagen3.png)
+![Prueba en localhost de /api/detalles_info](imagenes/imagen4.png)
 
 Endpoint /api/detalles_info2
 
-![Prueba en localhost de /api/detalles_info2](imagenes/imagen4.png)
+![Prueba en localhost de /api/detalles_info2](imagenes/imagen3.png)
 
 ## Alumno
 
