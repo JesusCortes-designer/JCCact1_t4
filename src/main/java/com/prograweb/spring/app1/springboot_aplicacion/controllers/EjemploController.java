@@ -6,18 +6,17 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.prograweb.spring.app1.springboot_aplicacion.models.Materia;
 
 @RestController
+@RequestMapping("/api")
 public class EjemploController {
 
-    // Lee el puerto real con el que corre la app (8080 en local, el tuyo en el VPS)
-    @Value("${server.port:8080}")
-    private int puerto;
+   
 
-    // b) Lista simulada de objetos
     @GetMapping("/materias")
     public List<Materia> materias() {
         return List.of(
@@ -33,7 +32,7 @@ public class EjemploController {
         Map<String, Object> respuesta = new LinkedHashMap<>();
         respuesta.put("Titulo", "Servidor en línea");
         respuesta.put("Servidor", "PrograWeb");
-        respuesta.put("Puerto", puerto);
+        respuesta.put("IP", "192.168.1.1");
         return respuesta;
     }
 }
