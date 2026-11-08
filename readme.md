@@ -51,7 +51,7 @@ Se usó el puerto 8081, definido en el archivo application.properties con la lí
 
 d) Enlaces
 
-Repositorio de GitHub: https://github.com/TU_USUARIO/NOMBRE_DEL_REPO
+Repositorio de GitHub: https://github.com/JesusCortes-designer/JCCact1_t4
 
 Proyecto en el VPS: http://20.119.81.138:8081/api/materias
 ## Despliegue
@@ -60,8 +60,10 @@ La aplicación corre en una máquina virtual de Azure como servicio de systemd, 
 
 Enlace del proyecto en el servidor:
 
-    http://20.119.81.138:8081/api/materias
+Enlace del proyecto en el servidor:
 
+    http://20.119.81.138:8081/
+    
     ## Pruebas en localhost
 
 Se ejecutó el proyecto en la máquina local con el comando:
