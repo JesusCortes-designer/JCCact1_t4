@@ -13,7 +13,7 @@ Proyecto de Spring Boot que expone una API REST sencilla con dos controladores y
 - Java 21
 - Spring Boot
 - Maven
-- Nginx (proxy inverso en el servidor)
+- Nginx 
 
 ## Estructura
 
@@ -29,22 +29,6 @@ Todos usan el método GET y la ruta base /api.
 - /api/detalles_info: información del servidor en JSON.
 - /api/nombre: texto con el nombre del proyecto y del autor.
 - /api/detalles_info2: detalles del autor en JSON.
-
-## Cómo ejecutarlo en local
-
-Requisitos: JDK 21 y Maven (o el wrapper incluido).
-
-    git clone https://github.com/TU_USUARIO/JCCact1_t4.git
-    cd JCCact1_t4
-    ./mvnw spring-boot:run
-
-En Windows:
-
-    .\mvnw.cmd spring-boot:run
-
-La aplicación queda disponible en:
-
-    http://localhost:8081/api/materias
 
 ## Cómo generar el jar
 
