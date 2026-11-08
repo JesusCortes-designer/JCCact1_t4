@@ -19,7 +19,6 @@ Proyecto de Spring Boot que expone una API REST sencilla con dos controladores y
 
 - EjemploController: devuelve la lista de materias y un objeto con información del servidor.
 - EjemploRestController: devuelve el nombre del proyecto y un objeto con detalles del autor.
-- Materia: modelo con id, nombre y créditos.
 
 ## Endpoints
 
