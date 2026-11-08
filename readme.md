@@ -53,7 +53,8 @@ d) Enlaces
 
 Repositorio de GitHub: https://github.com/JesusCortes-designer/JCCact1_t4
 
-Proyecto en el VPS: http://20.119.81.138:8081/api/materias
+Proyecto en el VPS:     http://20.119.81.138:8081/
+
 ## Despliegue
 
 La aplicación corre en una máquina virtual de Azure como servicio de systemd, con Java 21. El puerto usado es el 8080, que se abrió en el grupo de seguridad de red de Azure.
@@ -63,7 +64,7 @@ Enlace del proyecto en el servidor:
 Enlace del proyecto en el servidor:
 
     http://20.119.81.138:8081/
-    
+
     ## Pruebas en localhost
 
 Se ejecutó el proyecto en la máquina local con el comando:
