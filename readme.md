@@ -44,7 +44,7 @@ En Windows:
 
 La aplicación queda disponible en:
 
-    http://localhost:8080/api/materias
+    http://localhost:8081/api/materias
 
 ## Cómo generar el jar
 
@@ -58,7 +58,7 @@ La aplicación corre en una máquina virtual de Azure como servicio de systemd, 
 
 Enlace del proyecto en el servidor:
 
-    http://20.119.81.138:8080/api/materias
+    http://20.119.81.138:8081/api/materias
 
     ## Pruebas en localhost
 
